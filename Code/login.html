@@ -1,0 +1,53 @@
+
+<html lang="en">
+<head>
+  <title>ESCUELA SUPERIOR POLITÉCNICA DE CHIMBORAZO</title>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <link rel="icon" type="image/png" href="style/espoch.png">
+</head>
+
+<body>
+  <div id="main">
+    <div id="links"></div>
+    <div id="header">
+      <div id="logo">
+        <h1>DBRA - <span class="alternate_colour">HERBARIO </span></h1>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <li><a href="index.html">HERBARIO</a></li>
+          <li><a href="ddautor.html">USO DE DATOS</a></li>
+          <li><a href="mostrar.php">ESPECÍMENES</a></li>
+          <li><a href="contacto.html">CONTACTO</a></li>
+          <li class="tab_selected"><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div id="panel" align="center"><img src="style/login.jpg" alt="autoridades" /></div>
+      <div id="content">
+        <h1>Administradores</h1>
+        <p>Solo para administradores del Sistéma.</p>  
+
+        <form action="validar.php" method="post">
+          <center>
+            <div class="form-group">
+              <input type="hidden" name="accion" value="ingreso">
+              <input type="email" class="form-control input-lg" name="mail" placeholder="Correo" autocomplete="on" required>        
+            </div>
+            <div class="form-group" style="margin-top: 7px;">
+             <input type="password" class="form-control input-lg" name="pass" placeholder="Contraseña" required>       
+           </div>
+           <button type="submit" class="btn btn-success btn-block" style="margin-top: 7px;">Entrar</button>
+         </center>
+       </form>
+     </div>
+   </div>
+   <div id="footer">Copyright &copy; ESPOCH. TODOS LOS DERECHOS RESERVADOS. | <a href="http://espoch.edu.ec">ESPOCH</a> | <a> <li>2025</a>| <a href="http://bibliotecas.espoch.edu.ec/bdatos.html"> DBRA </a></div>
+   </div>
+ </body>
+ </html>
