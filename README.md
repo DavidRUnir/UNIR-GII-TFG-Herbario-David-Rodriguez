@@ -2,10 +2,11 @@
 <h1 align="center"> Universidad Internacional de La Rioja </h1>
 <h2 align="center"> Escuela Superior de Ingeniería y Tecnología  </h2>
 
+<br>
 <h3 align="center"> Grado en Ingeniería Informática  </h3>
 <h4 align="center"> Desarrollo de una aplicación web para la gestión de la información del herbario institucional de la Escuela Superior Politécnica de Chimborazo.  </h4>
 
-
+<br>
 <table align="center">
   <tbody>
     <tr>
@@ -22,7 +23,7 @@
     </tr>
     </tbody>
 </table>
-
+<br>
 
 <h3 align="center"> RESUMEN  </h3>
 
