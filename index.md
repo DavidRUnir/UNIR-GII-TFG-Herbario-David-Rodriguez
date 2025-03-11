@@ -5,7 +5,7 @@
 <h3 align="center"> Grado en Ingeniería Informática  </h3>
 <h4 align="center"> Desarrollo de una aplicación web para la gestión de la información del herbario institucional de la Escuela Superior Politécnica de Chimborazo.  </h4>
 
-<table>
+<table align="center">
   <tbody>
     <tr>
       <td> Trabajo fin de estudio presentado por: </td>
