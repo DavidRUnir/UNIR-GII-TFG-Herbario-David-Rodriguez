@@ -1,9 +1,9 @@
 <?php
 session_start();
 if (@!$_SESSION['user']) {
-  header("Location:login.html");
+  header("Location:******");
 }elseif ($_SESSION['id']==1) {
-  header("Location:admin2.php");
+  header("Location:*****");
 }
 ?>
 
