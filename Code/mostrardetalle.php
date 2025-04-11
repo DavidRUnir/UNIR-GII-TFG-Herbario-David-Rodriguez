@@ -86,10 +86,10 @@ if ($conexion -> connect_errno) {
 
 $id = $_GET['variable1'];
 
-$herbarioe = " SELECT * FROM xxxxxxxxxxx WHERE idcartulina = '$id'";
+$**** = " SELECT * FROM xxxxxxxxxxx WHERE idcartulina = '$id'";
 
 		
-	$resherbarioe=$conexion->query($herbarioe) ;
+	$resherbarioe=$conexion->query($****) ;
  
 		
 		while ($registroherbario = $resherbarioe -> fetch_array(MYSQLI_BOTH))
