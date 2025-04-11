@@ -70,13 +70,13 @@ if ($conexion -> connect_errno) {
 		
 		
 		<?php
-		 $herbarioe = "SELECT * FROM berbarioespoch WHERE idcartulina = $id";
+		 $**** = "SELECT * FROM ******* WHERE ****** = $id";
 	
-		$resherbarioe=$conexion->query($herbarioe);
+		$res******e=$conexion->query($*******);
 			
 			
 			
-		while ($registroherbario = $resherbarioe -> fetch_array(MYSQLI_BOTH))
+		while ($registro****** = $res****** -> fetch_array(MYSQLI_BOTH))
 		{
 			}
 		
@@ -95,7 +95,7 @@ if ($conexion -> connect_errno) {
       <div id="content">
 		<h1><strong>Modificar Especímen</strong></h1>
 		  
-		  <form name="contact" method="POST" action="modificar.php">
+		  <form name="contact" method="POST" action="*********">
 		   <table width="auto" cellpadding="0" cellspacing="0">
           <tr><th></th><th>Ingrese datos </th></tr>
           <tr><td><strong>Index</strong><br>
